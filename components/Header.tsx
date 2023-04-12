@@ -35,20 +35,7 @@ export const Header: React.FC = () => (
   >
     <HStack spacing={200}>
 
-      {/* <Text fontSize="50px">Camphill Agualinda </Text>  */}
-      <a href="https://instagram.com/elgorditofitofficial?igshid=YmMyMTA2M2Y="
-      rel='noopener' target='_blank'>
-
-        <img src="https://i.imgur.com/cpfbQyT.png" alt="bitso" />
-        {/* <Text fontSize="20px">Bitso</Text> */}
-      </a>
-      <br />
-      <a href="https://bitso.com/co"
-      rel='noopener' target='_blank'>
-
-        <img src="https://i.imgur.com/1X5VRck.png" alt="bitso" />
-        {/* <Text fontSize="20px">Bitso</Text> */}
-      </a>
+      
     </HStack>
     <Box display={{ md: "block" }} flexBasis={{ base: "100%", md: "auto" }}>
       <HStack
@@ -58,7 +45,7 @@ export const Header: React.FC = () => (
         pt={[4, 4, 0, 0]}
       >
         <WalletMultiButton />
-        <WalletDisconnectButton />
+        
       </HStack>
     </Box>
   </Center>
