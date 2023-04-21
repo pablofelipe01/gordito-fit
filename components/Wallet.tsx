@@ -24,7 +24,7 @@ import {
       () => [
         new PhantomWalletAdapter(),
         // new SlopeWalletAdapter(),
-        new SolflareWalletAdapter(),
+        // new SolflareWalletAdapter(),
         // new TorusWalletAdapter(),
         // new LedgerWalletAdapter(),
         // new SolletWalletAdapter({}),
