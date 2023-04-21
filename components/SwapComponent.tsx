@@ -1,5 +1,6 @@
 import { usePublicKey, Swap } from "@strata-foundation/react";
-import { CSSReset, Text, Image } from "@chakra-ui/react";
+import { CSSReset, Text, Image, Container, Stack, Divider, ButtonGroup, Button, Avatar, Flex, Box, Badge, CircularProgress, CircularProgressLabel  } from "@chakra-ui/react";
+import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/card';
 import { useConnection, useWallet } from '@solana/wallet-adapter-react';
 import { useWalletModal } from "@solana/wallet-adapter-react-ui";
 import { Lbc } from "@strata-foundation/marketplace-ui";
@@ -16,12 +17,17 @@ export function SwapComponent() {
 
   return <div>
       { publicKey ?
-        <Lbc id={id} />
+        <Lbc id={id} /> :
 
-        : <Image 
+      //   <CircularProgress value={40} color='green.400'>
+      //   <CircularProgressLabel>40%</CircularProgressLabel>
+      // </CircularProgress>
+
+         <Image 
         src='https://i.imgur.com/k9VZAhh.png'
         alt='Token'>
           </Image>
+      
         
           
       }
