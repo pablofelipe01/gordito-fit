@@ -1,5 +1,6 @@
 import { usePublicKey, Swap } from "@strata-foundation/react";
-import { CSSReset, Text, Image, Container, Stack, Divider, ButtonGroup, Button, Avatar, Flex, Box, Badge, CircularProgress, CircularProgressLabel  } from "@chakra-ui/react";
+import { CSSReset, Text, Image, Container, Stack, Divider, ButtonGroup, Button, Avatar, Flex, Box, CircularProgress, CircularProgressLabel, AspectRatio  } from "@chakra-ui/react";
+
 import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/card';
 import { useConnection, useWallet } from '@solana/wallet-adapter-react';
 import { useWalletModal } from "@solana/wallet-adapter-react-ui";
@@ -19,16 +20,21 @@ export function SwapComponent() {
       { publicKey ?
         <Lbc id={id} /> :
 
-      //   <CircularProgress value={40} color='green.400'>
-      //   <CircularProgressLabel>40%</CircularProgressLabel>
-      // </CircularProgress>
+   
 
-         <Image 
-        src='https://i.imgur.com/k9VZAhh.png'
-        alt='Token'>
-          </Image>
-      
-        
+        //  <Image 
+        // src='https://i.imgur.com/k9VZAhh.png'
+        // alt='Token'>
+        //   </Image>
+       // This video will have equal sides
+<AspectRatio maxW='560px' ratio={1}>
+  <iframe
+    title='naruto'
+    src='https://www.youtube.com/embed/0NdV54S4BY4?autoplay=1'
+    allowFullScreen
+  />
+</AspectRatio>
+    
           
       }
           
