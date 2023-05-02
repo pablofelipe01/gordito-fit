@@ -22,18 +22,18 @@ export function SwapComponent() {
 
    
 
-        //  <Image 
-        // src='https://i.imgur.com/k9VZAhh.png'
-        // alt='Token'>
-        //   </Image>
+         <Image 
+        src='https://i.imgur.com/k9VZAhh.png'
+        alt='Token'>
+          </Image>
        // This video will have equal sides
-<AspectRatio maxW='560px' ratio={1}>
-  <iframe
-    title='naruto'
-    src='https://www.youtube.com/embed/0NdV54S4BY4?autoplay=1'
-    allowFullScreen
-  />
-</AspectRatio>
+// {/* <AspectRatio maxW='560px' ratio={1}>
+//   <iframe
+//     title='naruto'
+//     src='https://www.youtube.com/embed/0NdV54S4BY4?autoplay=1'
+//     allowFullScreen
+//   />
+// </AspectRatio> */}
     
           
       }
