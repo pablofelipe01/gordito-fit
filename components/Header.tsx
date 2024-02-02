@@ -43,13 +43,13 @@ export const Header: React.FC = () => (
     }}
     
   >
-  <a href="https://onramp.pokoapp.xyz/?apiKey=734c4a23-e256-46c4-b917-974f759a6aee&userId=poko_prod&cryptoList=SOL-solana,USDC-solana"  rel="noreferrer" target="_blank" style={{ 
+  <a href="https://buy.onramper.com?apiKey=pk_prod_01HETEQF46GSK6BS5JWKDF31BT&mode=buy,sell&defaultCrypto=sol"  rel="noreferrer" target="_blank" style={{ 
     display: "flex", 
     alignItems: "space-between",
     padding: "20px 10px 10px 10px",
      }}>
     {/* <h1 style={{ margin: "10px 10px 10px 10px" }}>Buy</h1> */}
-    <img src="https://i.imgur.com/m1Ld8vi.png" alt="Sol" style={{ width: "150px" }} />
+    <img src="/003.png" alt="Sol" style={{ width: "150px" }} />
   </a>
 
     <HStack spacing={200}>
